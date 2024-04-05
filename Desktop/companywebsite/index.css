@@ -1,107 +1,102 @@
-.body{
-    background-color: azure;
-    margin: 0;
-    padding: 0;
-}
-.beWithUs{
-    text-align: center;
-    background-color: yellowgreen;
-    border-radius: 20%;
-}
- .WhyUs{
-    text-align: center;
-   
- }
-.About{
-    text-align: center;
-    font-size: x-large;
-
-}
-.wrapper{
-    width: 100%;
-}
-.img-info{
-    width:100%;
-
-}
-.img-info h2{
- padding: 30px 30px 20px;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 30px;
- color:#111;
- line-height:44px;
-}
-.img-info p{
-    padding: 0px 30px 20px;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 16px;
- color:#111;
- line-height:24px;
-}
-img{
-    width: 100%;
-}
-#services{
-    background-color: aqua;
-    text-align: center;
-    margin: 10px;
-    border-radius: 10%;
-}
-@media only screen and (min-width: 760px){
-    .wrapper{
-        width: 600px;
-        margin: 0 auto;
-
-    }
-    .img-info h2{
-        padding: 20px 0px 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-        color:#111;
-        line-height:44px;
-       }
-       .img-info p{
-           padding: 20px 0px 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        color:#111;
-        line-height:24px;
-       }
-       img{
-        padding:30px ;
-       }
-
-}
-#connect{
-    text-align: center;
-}
-#connect a{
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <header class="topnavwrapper">
+     <h1 class="companyname"><a href="/">STREAM SOLUTIONS</a></h1>
+     <nav>
+        <span id="nav-label" hidden>Navigation</span>
+        <button id="btnopen" class="topnav_open" aria-expanded="false" aria-labelledby="nav-label">
+            <i class="fa-solid fa-list" style="font-size: xx-large;"></i>
+        </button>
+        <div class="topnav_menu" role="dialog" aria-labelledby="nav-label">
+            <button class="topnav_close" id="btnclose" aria-label="Close">
+                <i class="fa-solid fa-x" style="font-size: xx-large;"></i>
+            </button>
+            <ul class="topnav_links">
+                <li class="topnav_item"><a href="" class="topnav_link"><button id="button2">Home</button></a></li>
+           <li class="topnav_item"><a href="" class="topnav_link"><button id="button2">About Us</button></a></li>
+           <li class="topnav_item"><a href="" class="topnav_link"><button id="button2">Our Services</button></a></li>
+           <li class="topnav_item"><a href="" class="topnav_link"><button id="button2">Our works</button></a></li>
+           <li class="topnav_item"><a href="" class="topnav_link"><button id="button2">Connect with us</button></a></li>
+        </ul>
+        <div class="socialmedia">
+            <a href="/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        </div>
+        
+     </nav>
+   </header>
+    <main>
+    <div >
+        <div class="Home">
+           <img src="image2.webp" alt="">
+        <div class="wrapper">
+            <article class="img-info">
+                <h2>Your Smile is our greatest pleasure!</h2>
+                <p>A software development company passionate about enhancing your business online.</p>
+                <p>We are a team of developers focusing on web development, web design and mobile app development.
+                                           Work with us! Get the value of your money.
+                                             Your smile is our Greatest pleasure.
+                </p> 
+                
+            </article>
+        </div>
+ 
+        </div>
+        
+        
     
-}
-@media only screen and (min-width: 1020px){
-    .wrapper{
-        width: 100%;
-        margin: 0 auto;
+       
+    <div id="services">
+        <h2>Our Services</h2>
+        <p>1. We Build fast, responsive websites for your business</p>
+        <p>2. We provide SEO advertisement to enhance your websites online presence</p>
+        <p>3. We build mobile applications on ios and Android</p>
+    </div>
+     <h1 class="WhyUs" style="font-size: xx-large;">Why us?</h1>
+     <div class="beWithUs">
+        <div class="affordable">
+         <dl>
+             <dt><b><i class="fa-solid fa-coins" style="font-size: large;"></i><br>Affordable</b></dt>
+             <dd>We offer best solutions for affordable prices</dd>
+         </dl>  
+        </div>
+        <div class="Reliability">
+         <dl>
+             <dt><b><i class="fa-regular fa-face-smile" style="font-size: large;"></i><br>Reliabilty</b></dt>
+             <dd>We do not blue-tick our clients. We work to bring out best results through constant communication, review and testing to bring you the best results</dd>
+         </dl>
+        </div>
+        <div class="Experience">
+         <dl>
+             <dt><b><i class="fa-solid fa-briefcase" style="font-size: large;"></i><br>Experience</b></dt>
+             <dd>Our team is made up of experienced developers on many kinds of web pages and app development</dd>
+         </dl>
+        </div>
+        <div class="Time">
+         <dl>
+              <dt><b><i class="fa-solid fa-calendar-days" style="font-size: large;"></i><br>Time is money</b></dt>
+             <dd>We are aware of the importance of your time.We deliver the best results in the shortest time possible</dd>
+         </dl>
+        </div>   
+     </div>
+    <div id="connect">
+        <h3>For business and enquiries</h3>
+        <a href="https://www.linkedin.com/in/muslim-kigen-93b6b025b/
+        ">linkedin</a>
+       
+    </div>
+</main>
+    <script src="/index.js"></script>
+</body>
 
-    }
-    .img-info h2{
-        padding: 20px 0px 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-        color:#111;
-        line-height:44px;
-       }
-       .img-info p{
-           padding: 20px 0px 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        color:#111;
-        line-height:24px;
-       }
-       img{
-       padding-left: 130px;
-        width: 70%;
-        align-items: center;
-       }
-
-}
+</html>
